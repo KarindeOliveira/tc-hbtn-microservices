@@ -1,0 +1,21 @@
+﻿    • O que é Arquitetura Serverless
+Arquitetura Serverless, ou “computação sem servidores”, é uma arquitetura de computação orientada a eventos. Sua principal proposta é permitir que as empresas de software criem e mantenham seus aplicativos web sem se preocupar com a infraestrutura em que esses aplicativos estão rodando.
+Trata-se de um conceito relativamente novo, que ganhou popularidade devido aos serviços como AWS Lambda, Microsoft Azure, Google Cloud, entre outros.
+
+    • O que é Function as a service (FaaS) ?
+Function as a Service (FaaS) é um serviço de computação em nuvem que busca abstrair a questão de servidor e máquinas onde rodam os seus programas. Em detalhes, ela deriva da filosofia Servless, que delega ao provedor de computação em nuvem (Cloud Provider) provisionar uma plataforma que permita ao cliente: desenvolver, rodar e gerenciar aplicações. Nestes moldes, reduz-se a complexidade de uma pessoa ter que montar e manter a infraestrutura, atual padrão de todo mercado corporativo. Montando uma aplicação com este padrão, implementamos a teoria Servless e criamos uma arquitetura nativa de microsserviços.
+    • Quais são os benefícios de usar arquitetura Serverless ?
+
+    • O que é Cloud Computing (Computação em Nuvem) ? E quais são seu benefícios ?
+      A computação em nuvem é a entrega de recursos de TI sob demanda por meio da Internet com definição de preço de pagamento conforme o uso. Em vez de comprar, ter e manter datacenters e servidores físicos, você pode acessar serviços de tecnologia, como capacidade computacional, armazenamento e bancos de dados, conforme a necessidade, usando um provedor de nuvem como a Amazon Web Services (AWS).
+    • Quais são as principais diferenças entre Arquitetura Monolítica, Microsserviços e Serverless ?
+Arquitetura Monolítica
+Arquitetura Monolítica é quando uma única aplicação de software em camadas contém a interface do usuário, as regras de negócio e código de acesso a dados. Tudo isso são combinados em apenas um único programa e uma única plataforma. Então, uma aplicação monolítica é autônoma e independente de outras aplicações.
+É uma arquitetura simples de desenvolver, simples de testar e de implementar, porém, tem também suas desvantagens. É difícil de escalar: quando você precisar escalar essa aplicação ou fazer com que ela tenha maior disponibilidade, precisa escalar a aplicação inteira. Isso se torna inviável, o custo fica muito alto, e conforme essa aplicação cresce, complica a manipulação. Depois disso vieram os microsserviços, para solucionar esses problemas.
+Arquitetura de microsserviços
+A Arquitetura de Microsserviços é uma arquitetura de software diferente do monolito, no qual sistemas grandes e complexos são transformados em componentes individuais. Eles são quebrados e cada um fica espalhado com sua responsabilidade. As vantagens dos microsserviços são a sua escalabilidade distribuída, ou seja, não é preciso crescer a aplicação inteira para solucionar um problema, podemos escalar apenas recursos específicos. Deploys mais rápidos e não ficamos presos a uma linguagem de programação.
+
+Arquitetura Serverless
+Então, aí entra a Arquitetura Serverless. Embora o seu nome signifique “sem servidor”, na tradução literal, não é bem assim que funciona. A aplicação continua funcionando em um servidor, porém o gerenciamento do servidor ficará por conta de um provedor de nuvem. Um desenvolvedor não precisará se preocupar com configurações relacionadas a infraestrutura em que sua aplicação irá funcionar. Essas decisões ficarão por conta da nuvem.
+BaaS (Backend as a Service)
+
